@@ -37,19 +37,18 @@ What it taught me was that schedules are just that - guidelines. Things come up,
 
 What I did do right was this - highlighted words that I thought were important. Words, not sentences. Words that aren't necessarily topics or the title of the page, but names of tools, concepts, and jargon even. Every single unique word I found, I highlighted. This helped immensely when 5 weeks down the line I started my index. Sure, you're going to have a lot of duplicates - but now you know every single page that concept was mentioned in. With GIAC, they
 ask you questions from every nook and cranny - as Bryan put it, anything in the textbook is fair play. While SANS/GIAC prohibits you from discussing specifics, that's my 2 cents - index everything you can think of. At the end of 6 books, you might know what all of the WiFi standards are, and that it's primarily discussed in book 1, but you probably won't realize it's also mentioned somewhere in book 4, in passing nonetheless, on how you can mitigate wireless risks by decreasing the signal strength. This way at least, you have an index which tells you all of the nooks and crannies WiFi was mentioned.
-<figure class="3D" kg-card"=""><img class="=3D" kg-image""="" src="/images/2020/11/58563-image-1.png" "=""><figcaption>Same topic, mentioned in different context - index it.</figcaption></figure>
-<figure class="3D" kg-card"=""><img class="3D" kg-image""="" src="/images/2020/11/im=">
 
-<figcaption>My index, in general.</figcaption>&lt;= /figure&gt;
+![Same topic, mentioned in different context - index it.](/images/2020/11/58563-image-1.png)
+
+![My index, in general.](/images/2020/11/691cc-image.png)
 
 I also created a separate sheet with all the ports and the common services associated to them. One of the ladies in the cohort compiled an amazing list of all the Windows commands that are mentioned in the books, and I thought that was a great piece of information to have handy too, though I didn't need much.
-<figure class="3D" kg-card"=""><img class="3D" kg-image""="" src="/images/2020/11/ima=">
 
-<figcaption>Ports, protocols and their common services.</figcaption></figure>
+![Ports, protocols and their common services.](/images/2020/11/81ee2-color_pop-scaled-1.jpg)
+
 Finally, I also used a sheet with all the abbreviations compiled in them that was put together by another generous soul, again from the women's stream. This was super helpful, as it filled in the gaps in my index.
-<figure class="3D" kg-card"=""><img class="3D" kg-image""="" src="/images/2020/11/ima=">
 
-<figcaption>Abbreviations in a 2-column reference index.</figcaption></figure>
+![Abbreviations in a 2-column reference index.](/images/2020/11/86cee-color_pop-1.jpg)
 That's apart from understanding the topics, of course. By the end of my second read through, concepts such as defense in depth and principle of least privilege were inculcated in the way I was thinking. All those years of working for a bank, RDPing from one jumpbox to another, wondering why I couldn't just directly logon to that second server, suddenly makes sense!
 
 <strong>Practice Tests?</strong>

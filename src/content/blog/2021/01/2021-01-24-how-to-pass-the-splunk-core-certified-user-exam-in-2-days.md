@@ -13,8 +13,7 @@ wpId: 608
 
 
 
-<figure class="wp-block-image size-large"><img src="/images/2021/01/1edb7-image-1.png" alt="" class="wp-image-610"><figcaption>Verify my <a href="https://www.youracclaim.com/badges/5b0f7d75-fed5-467c-a3f5-87cf3e8f5fdb">Splunk Core Certified User on Acclaim (youracclaim.com)</a></figcaption></figure>
-
+![Verify my Splunk Core Certified User on Acclaim (youracclaim.com)](/images/2021/01/1edb7-image-1.png)
 
 
 <p>Learning the SIEMs required for a Cyber Security Analyst role seemed quite easy on paper - start by creating a couple of virtual machines (VM), setup a SIEM such as QRadar or Splunk on one of them, and forward all of the logs from the VMs to the SIEM. You're basically setting up a virtual lab at home on your personal computer. Fair enough. Now, this post is about the Splunk Core Certified User, so I'm going to come back and write another post on setting up a virtual lab. Just need to tidy up the notes I have. For now, onward toward the Splunk Core certification then. </p>
