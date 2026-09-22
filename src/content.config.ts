@@ -14,6 +14,13 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// WordPress-specific fields for migration
+			categories: z.array(z.string()).default([]),
+			tags: z.array(z.string()).default([]),
+			author: z.string().default(''),
+			wpId: z.number().optional(),
+			wpSlug: z.string().optional(),
+			draft: z.boolean().default(false),
 		}),
 });
 
