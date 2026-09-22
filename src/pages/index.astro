@@ -9,40 +9,200 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.hero {
+				text-align: center;
+				padding: 4em 1em;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				color: white;
+				margin: -2em -1em 2em -1em;
+			}
+			.hero h1 {
+				font-size: 3em;
+				margin-bottom: 0.5em;
+			}
+			.hero p {
+				font-size: 1.2em;
+				max-width: 800px;
+				margin: 0 auto 2em;
+			}
+			.cta-button {
+				display: inline-block;
+				background: white;
+				color: #667eea;
+				padding: 1em 2em;
+				text-decoration: none;
+				border-radius: 8px;
+				font-weight: bold;
+				margin-top: 1em;
+			}
+			.experience-section {
+				text-align: center;
+				padding: 3em 1em;
+			}
+			.experience-section h2 {
+				font-size: 2em;
+				margin-bottom: 1em;
+			}
+			.company-logos {
+				display: flex;
+				justify-content: center;
+				gap: 2em;
+				flex-wrap: wrap;
+				margin: 2em 0;
+			}
+			.company-logo {
+				font-size: 1.5em;
+				font-weight: bold;
+				color: var(--accent);
+			}
+			.testimonials {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 2em;
+				margin: 3em 0;
+			}
+			.testimonial-card {
+				background: rgb(var(--gray-light));
+				padding: 2em;
+				border-radius: 8px;
+				border-left: 4px solid var(--accent);
+			}
+			.testimonial-card blockquote {
+				font-style: italic;
+				margin-bottom: 1em;
+			}
+			.testimonial-card cite {
+				font-weight: bold;
+				color: var(--accent);
+			}
+			.services-section {
+				background: rgb(var(--gray-light));
+				padding: 3em 1em;
+				margin: 2em -1em;
+			}
+			.services-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				gap: 2em;
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			.service-card {
+				background: white;
+				padding: 2em;
+				border-radius: 8px;
+				box-shadow: var(--card-shadow);
+			}
+			.service-card h3 {
+				color: var(--accent);
+				margin-bottom: 1em;
+			}
+			.service-link {
+				display: inline-block;
+				margin-top: 1em;
+				color: var(--accent);
+				text-decoration: none;
+				font-weight: bold;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your{' '}
-				<code>astro.config.mjs</code> file. You can customize your setup with{' '}
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to{' '}
-				<a href="https://docs.astro.build/">read the docs</a>{' '}
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out{' '}
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>{' '}
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="hero">
+				<h1>Hello, my name is Santosh</h1>
+				<p>
+					I manage a team of cybersecurity professionals, teach students at York University, mentor newcomers
+					to Canada (and cybersecurity), work as a SANS GIAC Advisor, and volunteer with ISC2 and the Thalassemia Foundation of Canada (TFC).
+				</p>
+				<p>
+					I love working in a challenging environment that is fast paced and dynamic as it provides the best
+					opportunities to excel. Open to discussing opportunities in the computer networking and security
+					industry.
+				</p>
+				<a href="/about" class="cta-button">About Me</a>
+			</section>
+
+			<section class="experience-section">
+				<h2>Experience working across 3 continents</h2>
+				<h3>and managing hundreds of stakeholders</h3>
+				<div class="company-logos">
+					<div class="company-logo">Centennial College</div>
+					<div class="company-logo">York University</div>
+					<div class="company-logo">IBM</div>
+					<div class="company-logo">Concentrix</div>
+				</div>
+				<p><em>Just ask anyone I've worked with…</em></p>
+			</section>
+
+			<section class="testimonials">
+				<div class="testimonial-card">
+					<h3>Learn and Grow Together</h3>
+					<blockquote>
+						"He was an open book. I enjoyed every moment working with him and every moment you could learn
+						something new."
+					</blockquote>
+					<cite>— Manuel Philip, Deloitte Consulting</cite>
+				</div>
+				<div class="testimonial-card">
+					<h3>Dedicated to Clients</h3>
+					<blockquote>
+						"The level of commitment and the responsibility with which he works makes it impossible for anyone
+						to not notice him."
+					</blockquote>
+					<cite>— Prem Lal, InMorphis</cite>
+				</div>
+			</section>
+
+			<section class="services-section">
+				<h2 style="text-align: center;">What I Offer</h2>
+				<p style="text-align: center; max-width: 800px; margin: 0 auto 2em;">
+					Security should be accessible. My pricing structure is built to be affordable for everyone from
+					individuals to established companies.
+				</p>
+				<div class="services-grid">
+					<div class="service-card">
+						<h3>🎓 Mentoring</h3>
+						<p>Good for trying out, or the occasional cybersecurity project.</p>
+						<ul>
+							<li>Works with major security tools</li>
+							<li>One project per month</li>
+							<li>Volunteer forum support</li>
+						</ul>
+						<a href="https://www.linkedin.com/in/santoshgs/" target="_blank" class="service-link">Get in Touch! →</a>
+					</div>
+					<div class="service-card">
+						<h3>💼 Consulting</h3>
+						<p>Great for the professional cybersecurity consultant.</p>
+						<ul>
+							<li>Security assessments</li>
+							<li>Incident response planning</li>
+							<li>Compliance guidance</li>
+						</ul>
+						<a href="https://calendly.com/" target="_blank" class="service-link">Book 15-minutes now →</a>
+					</div>
+					<div class="service-card">
+						<h3>🤝 Volunteering</h3>
+						<p>Giving back is part of life - perfect for community organizations.</p>
+						<ul>
+							<li>SANS GIAC Advisory Board</li>
+							<li>ISC2 volunteer work</li>
+							<li>Thalassemia Foundation of Canada</li>
+						</ul>
+						<a href="/contact" class="service-link">Contact Me →</a>
+					</div>
+				</div>
+			</section>
+
+			<section style="text-align: center; padding: 3em 1em;">
+				<h2>Keep learning as you go.</h2>
+				<p style="max-width: 600px; margin: 0 auto 2em;">
+					Want to be first in line to learn tips and tricks for supercharging your cybersecurity career? There
+					are many helpful resources in our blog.
+				</p>
+				<a href="/blog" class="cta-button">Read My Blog</a>
+			</section>
 		</main>
 		<Footer />
 	</body>

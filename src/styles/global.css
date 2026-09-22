@@ -23,9 +23,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	background-attachment: fixed;
-	min-height: 100vh;
+	background: #ffffff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
@@ -33,15 +31,10 @@ body {
 	line-height: 1.6;
 }
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
+	width: 100%;
+	max-width: 1200px;
 	margin: auto;
-	padding: 3em 1em;
-	background: white;
-	border-radius: 12px;
-	box-shadow: var(--card-shadow);
-	margin-top: 2em;
-	margin-bottom: 2em;
+	padding: 2em 1em;
 }
 h1,
 h2,
