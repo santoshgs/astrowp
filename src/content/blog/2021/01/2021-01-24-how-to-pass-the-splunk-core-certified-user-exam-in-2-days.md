@@ -13,7 +13,7 @@ wpId: 608
 
 
 
-<figure class="wp-block-image size-large"><img src="https://santoshganjur.wordpress.com/wp-content/uploads/sites/2/2021/01/image-1.png" alt="" class="wp-image-610"><figcaption>Verify my <a href="https://www.youracclaim.com/badges/5b0f7d75-fed5-467c-a3f5-87cf3e8f5fdb">Splunk Core Certified User on Acclaim (youracclaim.com)</a></figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/images/2021/01/1edb7-image-1.png" alt="" class="wp-image-610"><figcaption>Verify my <a href="https://www.youracclaim.com/badges/5b0f7d75-fed5-467c-a3f5-87cf3e8f5fdb">Splunk Core Certified User on Acclaim (youracclaim.com)</a></figcaption></figure>
 
 
 
